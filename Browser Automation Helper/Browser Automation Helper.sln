@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atos.BrowserAutomationHelper.Tests", "Atos.BrowserAutomationHelper.Tests\Atos.BrowserAutomationHelper.Tests.csproj", "{6C7F2659-3675-49E1-8E1F-D04AC5AC48F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{496585DF-F2DC-40F3-8017-FE43155991EB}"
+	ProjectSection(SolutionItems) = preProject
+		Browser Automation Helper.vsmdi = Browser Automation Helper.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atos.BrowserAutomationHelper.Library", "Atos.BrowserAutomationHelper.Library\Atos.BrowserAutomationHelper.Library.csproj", "{7B715325-B546-41A3-A584-15EA69E693B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atos.BrowserAutomationHelper.Web", "Atos.BrowserAutomationHelper.Web\Atos.BrowserAutomationHelper.Web.csproj", "{8AC584B4-7BC4-4631-A1F4-DDBDAE5D4A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atos.BrowserAutomationHelper.Web.Tests", "Atos.BrowserAutomationHelper.Web.Tests\Atos.BrowserAutomationHelper.Web.Tests.csproj", "{430CE901-08A5-412B-89B2-04DB6A3B32EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extracted", "Extracted", "{2E38F1FF-F1E7-45B5-A4AB-512A0277A818}"
+	ProjectSection(SolutionItems) = preProject
+		Extracted\WebTest.cs = Extracted\WebTest.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Browser Automation Helper.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C7F2659-3675-49E1-8E1F-D04AC5AC48F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7F2659-3675-49E1-8E1F-D04AC5AC48F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7F2659-3675-49E1-8E1F-D04AC5AC48F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7F2659-3675-49E1-8E1F-D04AC5AC48F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B715325-B546-41A3-A584-15EA69E693B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B715325-B546-41A3-A584-15EA69E693B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B715325-B546-41A3-A584-15EA69E693B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B715325-B546-41A3-A584-15EA69E693B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC584B4-7BC4-4631-A1F4-DDBDAE5D4A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC584B4-7BC4-4631-A1F4-DDBDAE5D4A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC584B4-7BC4-4631-A1F4-DDBDAE5D4A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC584B4-7BC4-4631-A1F4-DDBDAE5D4A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430CE901-08A5-412B-89B2-04DB6A3B32EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430CE901-08A5-412B-89B2-04DB6A3B32EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430CE901-08A5-412B-89B2-04DB6A3B32EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430CE901-08A5-412B-89B2-04DB6A3B32EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E38F1FF-F1E7-45B5-A4AB-512A0277A818} = {496585DF-F2DC-40F3-8017-FE43155991EB}
+	EndGlobalSection
+EndGlobal
